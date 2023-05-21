@@ -2,6 +2,9 @@ const { google } = require("googleapis");
 const ffmpeg = require("fluent-ffmpeg");
 const fs = require("fs");
 const videoData = require("../schemas/VideoData.js");
+const dotenv = require("dotenv");
+
+dotenv.config();
 
 const drive = google.drive({
   version: "v3",

@@ -28,7 +28,7 @@ function App() {
 
   const downloadVideo = async (e) => {
     e.preventDefault();
-    fetch(`http://localhost:5000/job-status/${jobId}`)
+    fetch(`http://localhost:5000/job-status/${inputJobId}`)
       .then((res) => res.json())
       .then(async (data) => {
         if (data.status !== "completed") {

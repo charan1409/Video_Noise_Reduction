@@ -54,6 +54,7 @@ app.post("/process-video", async (req, res) => {
 app.get("/job-status/:id", async (req, res) => {
   const { id } = req.params;
   const job = await VideoData.findOne({ job_id: id });
+  console.log(job)
   if (job) {
     res.json({ status: job.status, url: job.output_video_url });
   } else {

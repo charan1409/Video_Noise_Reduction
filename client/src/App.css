@@ -1,0 +1,112 @@
+.App{
+  height: 100vh;
+  padding: 40px 200px;
+}
+
+.App h1{
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.App .video-url-input{
+  height: 40px;
+  width: 340px;
+  padding: 3px 17px;
+  border-radius: 130px;
+  border: 1px solid #2ecc71;
+  font-size: 16px;
+}
+
+.App .process-btn{
+  height: 40px;
+  width: 180px;
+  margin-left: 20px;
+  border-radius: 130px;
+  background-color: #2ecc71;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  border: none;
+  cursor: pointer;
+}
+
+.App .process-btn:hover{
+  background-color: #fff;
+  border: 1px solid #2ecc71;
+  color: #2ecc71;
+}
+
+.App form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.App .display-copy{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-left: 260px;
+  border: 1px solid #2ecc71;
+  background-color: #91daaf52;
+  width: 450px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.App .display-status{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-left: 260px;
+  width: 450px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.App .display-copy p{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.App .display-copy .copy-btn{
+  height: 30px;
+  width: 70px;
+  border-radius: 10px;
+  background-color: #2ecc71;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  border: none;
+  cursor: pointer;
+}
+
+.App .display-copy .copy-btn:hover{
+  background-color: #fff;
+  border: 1px solid #2ecc71;
+  color: #2ecc71;
+}
+
+.App .download-btn{
+  margin-left: 260px;
+  height: 40px;
+  width: 180px;
+  border-radius: 130px;
+  background-color: #2ecc71;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  border: none;
+  cursor: pointer;
+}
+
+.App .download-btn:hover{
+  background-color: #fff;
+  border: 1px solid #2ecc71;
+  color: #2ecc71;
+}

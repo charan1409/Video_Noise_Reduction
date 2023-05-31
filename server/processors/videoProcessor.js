@@ -44,6 +44,10 @@ const videoProcessor = async (job, done) => {
     }
     done();
   } catch (error) {
+    const doc = await videoData.findOneAndUpdate(
+      { job_id: job.id },
+      { status: "failed" }
+    );
     console.error("Error applying audio filters:", error);
     done(error);
   }
